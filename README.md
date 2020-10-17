@@ -13,3 +13,5 @@
   * [Paul A. Rubin's blog post on OLS](https://orinanobworld.blogspot.com/2015/10/ols-oddities.html)
 
   * [Wikipedia entry on Moore-Penrose Inverse](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse)
+
+  * [Stephen Boyd's Lecture on Least-Squares](https://see.stanford.edu/materials/lsoeldsee263/05-ls.pdf)
