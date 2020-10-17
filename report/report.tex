@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\title{Machine Learning Homework 02 – Report}
+\author{Adam Catto}
+\date{ }
+
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\section{Introduction}
+The main goal of this assignment is to implement a linear classifier to perform multiclass classification. In order to initialize the relevant weights $\omega$ for the classifier, there are two approaches to take: 
+\begin{enumerate}
+	\item Initialize $\omega$ with the first data point of the dataset
+	\item Initialize $\omega$ using linear regression
+\end{enumerate}
+For approach (2), we are meant to also implement our own linear regression algorithm. Finally, we are to train and validate our implementation using 5 samples from the scikit-learn datasets ``Breast cancer'' and ``Iris''.
+
+\section{Solution}
+
+\subsection{Linear Regression Implementation}
+To do linear regression, we are to solve the least squares error problem for a dataset. We have a system of equations represented as 
+$$ X\omega = \mathbf{y}$$We can approximate a solution to this by setting an error term $r = X\omega - \mathbf{y}$, and minimize the size of $r$ – this is the least-squares approximation of a solution to the system of equations.\\ 
+ \\
+To solve for $\omega$, we take the following derivation steps:
+\begin{gather}
+X\omega = \mathbf{y} \\
+ \implies X^T X\omega = X^T \mathbf{y}\\
+  \implies \omega = (X^T X)^{-1} X^T \mathbf{y}
+\end{gather}
+The 
+\end{document}
